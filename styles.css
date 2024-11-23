@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 30px;
+  color: #333;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #999;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+
+form input[type="text"],
+form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+form input[type="checkbox"] {
+  margin-bottom: 20px;
+}
+
+form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 5px;
+}
+
+form input[type="submit"]:hover {
+  background-color: #444;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  background-color: #fff;
+  text-align: left;
+  border-collapse: collapse;
+  box-shadow: 0px 0px 5px #999;
+}
+
+th,
+td {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #333;
+  color: #fff;
+}
+
+td {
+  vertical-align: top;
+}
+
+.sort-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr auto;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+#titleSort,
+#genreSort,
+#releaseYearSort,
+#selectSort {
+  margin: 0;
+}
+
+#delete-all-btn {
+  margin: 0 0 0 50px;
+  width: 200px;
+  background-color: rgb(219, 59, 59);
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+.film-table__delete-btn {
+  width: 100px;
+  background-color: rgb(219, 59, 59);
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+#delete-all-btn:hover,
+.film-table__delete-btn:hover {
+  opacity: 0.9;
+}
